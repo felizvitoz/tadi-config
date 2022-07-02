@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/felizvitoz/config-server
+          uri: https://github.com/felizvitoz/tadi-config/tree/master/config
 
 server:
   port: 8889
