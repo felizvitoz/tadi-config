@@ -1,9 +1,14 @@
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/felizvitoz/tadi-config/tree/master/config
+          uri: https://github.com/felizvitoz/tadi-config.git
+          searchPaths: /config
+          refreshRate: 60
+        skip-ssl-validation: true
 
 server:
   port: 8889
