@@ -8,7 +8,6 @@ spring:
           uri: https://github.com/felizvitoz/tadi-config.git
           searchPaths: /config
           refreshRate: 60
-        skip-ssl-validation: true
 
 server:
   port: 8889

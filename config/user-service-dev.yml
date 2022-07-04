@@ -1,3 +1,14 @@
-spring :
-  datasource :
-    url : bla-bla
+spring:
+  datasource:
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 25
+    url: jdbc:postgresql://localhost:5440/redemption_apps
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+  application:
+    jpa:
+      show-sql: true
