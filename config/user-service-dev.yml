@@ -3,7 +3,7 @@ spring:
     hikari:
       connectionTimeout: 20000
       maximumPoolSize: 25
-    url: jdbc:postgresql://docker-compose-postgresql-1:5440/redemption_apps
+    url: jdbc:postgresql://localhost:5440/redemption_apps
     username: postgres
     password: postgres
   jpa:
