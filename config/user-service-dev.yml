@@ -12,3 +12,8 @@ spring:
   application:
     jpa:
       show-sql: true
+
+kafka:
+  topic:
+    activity: REDEMPTION.APP.ACTIVITY
+  bootstrapAddress: localhost:29092
