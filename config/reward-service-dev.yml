@@ -1,0 +1,6 @@
+kafka:
+  topic:
+    activity: REDEMPTION.APP.ACTIVITY
+  bootstrapAddress: 127.0.0.1:29092
+  listener:
+    groupId: REWARD.GROUP1
