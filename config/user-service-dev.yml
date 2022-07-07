@@ -16,4 +16,4 @@ spring:
 kafka:
   topic:
     activity: REDEMPTION.APP.ACTIVITY
-  bootstrapAddress: localhost:29092
+  bootstrapAddress: 127.0.0.1:29092
